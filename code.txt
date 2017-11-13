@@ -1,0 +1,70 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <string>
+#include <map>
+using namespace std;
+ 
+
+void solution(string a, string w); // public function with two strings
+
+string best; // public class
+int lastScore; // public class
+
+int main() {
+  string filename = "Words.txt"; // Allows call of Dictionary
+  string anagram; // User input variable
+
+  cout << "Please Enter 3 Letters:\n"; // User input
+  cin >> anagram; // saves user input to string
+  
+  
+   if(anagram.length() <= 3) { // Check Lenght
+   }  else { // If not abort 
+      cout << "Too Many Letters";
+      abort();
+  }
+  
+   // Read from file
+   ifstream fin(filename.c_str());  // default mode ios::in
+   if (!fin) { // if not error and abort
+      cout << "error: File Could'nt be Opened";
+      abort();
+   }
+    string line; // current word on Dictionary
+    
+    while (fin >> line) {  // print till end of file
+    
+      if(anagram.length() >= line.length()){ //Checks Anagram length is greater or equal to Line length
+        solution(anagram, line);
+      }
+    }
+    
+   fin.close(); // Closes Dictionary
+   
+   cout << "Best Solution: " << best << endl; // Prints best result
+   return 0;
+}
+
+void solution(string a, string w){
+   if (  best.length() > w.length()) return; // if Best is greater than W return back to main fucntion.
+   
+  int currentScore = 0; // Counts score of current Word
+  map<char, int> reapeatedChars; // creates map in order of char then int called repeatedChars
+  
+  for(unsigned i=0; i < a.length(); i++) { // if i is less than A length add 1 to i and continue
+    for(unsigned j=0; j < w.length(); j++) { // if j is less than W length add 1 to j and continue
+      if(a[i] == w[j]){ // if a character [i] = w character [j] 
+        // A character was found.
+        reapeatedChars[w[j]]++; // add 1 to repeatedChars[w[j]]
+        if(reapeatedChars[w[j]] == 1){ // add 1 to currentScore if repeatedChars[w[j]] = 1
+          currentScore++;
+        }
+      }
+    }
+  }
+  if(currentScore > lastScore){ // is currentScore greater than lastScore
+    best = w;// sets new line word to best if better 
+    lastScore = currentScore; // sets lastScore to currentScore
+  }
+}
