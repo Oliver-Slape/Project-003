@@ -1,7 +1,8 @@
 # Project-003
 ## Anagram Solver
 
-### Task: Design a system that will allow the player to enter up to 3 random letters. The system will return the best, largest, valid English word that can be made up of the 3 letters (Blanks/spaces are not allowed). For example: TCA should return CAT/ACT, OZR should return OR, ZZA should return A. Extension is adding more letters. 
+### Task: 
+### Design a system that will allow the player to enter up to 3 random letters. The system will return the best, largest, valid English word that can be made up of the 3 letters (Blanks/spaces are not allowed). For example: TCA should return CAT/ACT, OZR should return OR, ZZA should return A. Extension is adding more letters. 
 
 <h1> User Stories <h1>
     <h3> As a user I want to be able to input 3 letters. <h3>
