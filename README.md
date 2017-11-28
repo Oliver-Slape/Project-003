@@ -38,7 +38,7 @@
   # IDE 
 ![IDE](https://github.com/Oliver-Slape/Project-003/blob/master/IDE.fw.png)
 
-    <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. Additionally, it allows for the upload of files into a project enabling a dictionary or wordlist to be added for this program. <h3>
+   <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. Additionally, it allows for the upload of files into a project enabling a dictionary or wordlist to be added for this program. <h3>
   <h2> Debugging process <h2>
     <h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was jsut a matter of fixing this. This was done by commenting lines of code until the error removes and then editing that section of code line by line till it works. <h3>
   <h2> Coding Standards <h2>
