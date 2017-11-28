@@ -51,6 +51,6 @@
   <h2> Evaluation <h2>
     <h3> The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. The extension needs to be completed and there is a minor error where the returned word does'nt use all 3 letters. For example: ZZA returns ZAP rather than A. <h3>
     <h2> Relationship between algorithm and code <h2>
-    <h4> Because this program implements an algorithm the best paradigm to do this was procedural. This is because it carries out the program in computational steps, much like an algorithm. <h4> 
+    <h3> Because this program implements an algorithm the best paradigm to do this was procedural. This is because it carries out the program in computational steps, much like an algorithm. <h3> 
     
     
