@@ -45,4 +45,7 @@
     <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. Additionally there is an improved and detailed level of commenting in the project.  <h3>
   <h2> Evaluation <h2>
     <h3> The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. The extension needs to be completed and there is a minor error where the returned word does'nt use all 3 letters. For example: ZZA returns ZAP rather than A. <h3>
+    <h2> Relationship between algorithm and code <h2>
+    <h3> The algorithm 
+    <h2> Programming paradigm <h2> 
     
