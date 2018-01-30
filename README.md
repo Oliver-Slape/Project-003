@@ -55,7 +55,7 @@
    // Read from file
    ifstream fin(filename.c_str());  // default mode ios::in
    if (!fin) { // if not error and abort
-      cout << "error: File Could'nt be Opened";
+      cout << "error: File Couldn't be Opened";
       abort();
    }
     string line; // current word on Dictionary
