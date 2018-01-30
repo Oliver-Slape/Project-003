@@ -42,7 +42,7 @@
   <h2> Debugging process <h2>
     <h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was jsut a matter of fixing this. This was done by commenting lines of code until the error removes and then editing that section of code line by line till it works. <h3>
   <h2> Coding Standards <h2>
-    <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. Additionally there is an improved and detailed level of commenting in the project.  <h3> 
+    <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. Additionally there is an improved and detailed level of commenting in the project. Additionally, The use of correct naming of Variables, Functions and other naming techniques allowes for easy seperation between tasks. The use of lines, breaks and spacing allows for clean easy to read coding. <h3> 
 
 ``` C++    
     if(currentScore > lastScore){ // is currentScore greater than lastScore 
@@ -50,6 +50,24 @@
         lastScore = currentScore; // sets lastScore to currentScore 
      } 
 ```
+
+``` C++
+   // Read from file
+   ifstream fin(filename.c_str());  // default mode ios::in
+   if (!fin) { // if not error and abort
+      cout << "error: File Could'nt be Opened";
+      abort();
+   }
+    string line; // current word on Dictionary
+    
+   while (fin >> line) {  // print till end of file
+    
+     if(anagram.length() >= line.length()){ //Checks Anagram length is greater or equal to Line length
+       solution(anagram, line);
+     }
+    }
+``` 
+
   <h2> Evaluation <h2>
     <h3> The use of a more intuitive IDE made the process of debugging and having a coding standard as well as it made typing the code faster with hints and auto finish. The extension needs to be completed and there is a minor error where the returned word does'nt use all 3 letters. For example: ZZA returns ZAP rather than A. <h3>
     <h2> Relationship between algorithm and code <h2>
