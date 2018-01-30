@@ -40,7 +40,7 @@
 
    <h3> The IDE used was an online service called repl.it It is a colour coordinated IDE with Code hints And a complier with a console debug and input. Additionally, it allows for the upload of files into a project enabling a dictionary or wordlist to be added for this program. <h3>
   <h2> Debugging process <h2>
-    <h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was jsut a matter of fixing this. This was done by commenting lines of code until the error removes and then editing that section of code line by line till it works. <h3>
+    <h3> The IDE used as stated above includes a debugging service. This made the Debugging a lot simpler as it pointed to where and why there were errors in the code. After it was just a matter of fixing this. This was done by commenting lines of code until the error removes and then editing that section of code line by line till it works. Because we used a compiler it scans the entire program before generating errors compared to interpreters than just break and output the error when met. This can make the debugging a little more difficult.<h3>
   <h2> Coding Standards <h2>
     <h3> With the use of an IDE that colour coordinates the text and code and numbers it makes the layout easier to see and allows for a uniform coding standard. Additionally there is an improved and detailed level of commenting in the project. Additionally, The use of correct naming of Variables, Functions and other naming techniques allowes for easy seperation between tasks. The use of lines, breaks and spacing allows for clean easy to read coding. <h3> 
 
